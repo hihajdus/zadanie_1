@@ -1,367 +1,112 @@
-$iPhone: "(max-width: 479px)";
-$phone: "(min-width: 480px) and (max-width: 767px)";
-$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$phone: "(max-width: 479px)";
+$tablet: "(min-width: 480px) and (max-width: 1023px)";
 $desktop: "(min-width: 1024px)";
 
 
 
-// --- iPhone --- //
-
-@media #{$iPhone} {
-  [class*='col-']{
-    display: flex;
-    width:100%;
-  }
-
-  #nav {
-    #container_nav {
-      justify-content: flex-end;
-    }
-    #menu {
-      display: none;
-    }
-    .menu-content{ //test menu
-      height: 100%;
-      width: 100%;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: black;
-      opacity: 0.9;
-      overflow-x: hidden;
-      padding-top: 60px;
-      transition: 0.5s;
-      text-align: center;
-
-      a {
-        padding: 8px 8px 8px 32px;
-        //text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s
-      }
-      a:hover, .offcanvas a:focus{
-       color: #f1f1f1;
-     }
-
-    }
-
-  }
 
 
-
-  #intro {
-      height: 300px;
-
-      #half_circle_left {
-          height: 150px;
-          width: 75px;
-          -moz-border-radius: 0 150px 150px 0;
-          border-radius: 0 150px 150px 0;
-      }
-      #half_circle_right {
-          height: 150px;
-          width: 75px;
-          -moz-border-radius: 150px 0 0 150px;
-          border-radius: 150px 0 0 150px;
-    }
-  }
-
-  #container_half_left {
-    display: none;
-  }
-
-  #container_half_right {
-    width: 50%;
-  }
-
-  #container_text_intro {
-    width: 50%;
-  }
-
-
-  #about {
-
-    .size {
-        height: 300px;
-    }
-
-    #triangle_down {
-        //height: 100px;
-    }
-    #profile {
-        height: 300px;
-    }
-    #sentense {
-        display: none;
-    }
-    #story {
-        height: 300px;
-    }
-
-  }
-
-
-#skill {
-  .size {
-      height: 300px;
-  }
-  .skills {
-    div{
-      width: 50px;
-      height: 50px;
-    }
-  }
-
-
-}
-
-
-#work {
-
-}
-
-#contact {
-
-}
-
-
-
-}
-
-
-// --- phone --- //
 @media #{$phone} {
 
-  #nav {
-    .links {
-        padding: 20px;
-    }
-    #menu {
-      //display: none;
-    }
-  }
+/* --- header --- */
 
-    #intro {
-        height: 350px;
-
-        #half_circle_left {
+      #logo {
+            width: 100%;
             height: 150px;
-            width: 75px;
-            -moz-border-radius: 0 200px 200px 0;
-            border-radius: 0 200px 200px 0;
-        }
-        #half_circle_right {
+      }
+      #QRcode {
+            width: 100%;
             height: 150px;
-            width: 75px;
-            -moz-border-radius: 200px 0 0 200px;
-            border-radius: 200px 0 0 200px;
       }
-    }
-
-    #about {
-      .size {
-          height: 300px;
+      #text_QR {
+            width: 50%;
+      }
+      #img_QR {
+            width: 50%;
       }
 
-      #triangle_down {
-          //height: 300px;
-      }
-      #profile {
-          height: 300px;
-          width: 50%;
-      }
-      #sentense {
-          display: none;
-      }
-      #story {
-          height: 300px;
-          width: 50%;
-      }
-    }
+/* --- gallery --- */
 
-    #skill {
-      .size {
-          height: 300px;
+      #text_gallery {
+            height: 50px;
       }
-      .skills {
-        div{
-          width: 100px;
-          height: 100px;
-        }
+      #slider {
+            height: 300px;
+            width: 100%;
+      }
+      #images {
+            height: 150px;
+            width: 100%;
       }
 
+/* --- contents --- */
 
-    }
-
-    #work {
-
+      #article {
+            height: 200px;
       }
-
+      #details {
+            height: 200px;
+            width: 100%;
+      }
       #contact {
-
+            height: 200px;
+            width: 100%;
       }
-
 
 }
 
-
-// --- tablet --- //
-
-@media #{$tablet} {
-
-  #nav {
-    .links {
-        padding: 40px;
-    }
-
-  }
-
-    #intro {
-        height: 600px;
-
-        #half_circle_left {
-            height: 150px * 2;
-            width: 75px * 2;
-            -moz-border-radius: 0 300px 300px 0;
-            border-radius: 0 300px 300px 0;
-        }
-        #half_circle_right {
-            height: 150px * 2;
-            width: 75px * 2;
-            -moz-border-radius: 300px 0 0 300px;
-            border-radius: 300px 0 0 300px;
-      }
-    }
-
-    #about {
-      .size {
-          height: 300px;
-      }
-
-      #triangle_down {
-          //height: 300px;
-      }
-      #profile {
-          height: 600px;
-
-      }
-      #sentense {
-          height: 600px;
-      }
-      #story {
-          height: 600px;
-
-      }
-
-    }
-
-    #skill {
-      .size {
-          height: 300px;
-      }
-      .skills {
-        height: 400px;
-        div{
-          width: 150px;
-          height: 150px;
-        }
-      }
-
-    }
-
-    #work {
-      .container_work {
-        height: 500px;
-      }
-    }
-
-    #contact {
-      .container_contact {
-        height: 500px;
-      }
-    }
-
-
-
-}
-
-
-// --- desktop --- //
 
 @media #{$desktop} {
 
-  #nav {
-    .links {
-        padding: 60px;
-    }
+/* --- header --- */
 
-  }
-
-    #intro{
-        height: 900px;
-
-        #half_circle_left {
-            height: 150px * 3;
-            width: 75px * 3;
-            -moz-border-radius: 0 500px 500px 0;
-            border-radius: 0 500px 500px 0;
-        }
-        #half_circle_right {
-            height: 150px * 3;
-            width: 75px * 3;
-            -moz-border-radius: 500px 0 0 500px;
-            border-radius: 500px 0 0 500px;
-        }
-    }
-
-    #about {
-      .size {
-          height: 300px;
+      #logo {
+            height: 150px;
       }
-
-      #triangle_down {
-          //height: 300px;
+      #QRcode {
+            height: 150px;
       }
-      #profile {
-          height: 600px;
+      #text_QR {
 
       }
-      #sentense {
-          height: 600px;
-      }
-      #story {
-          height: 600px;
-      }
-    }
+      #img_QR {
 
-    #skill {
-      .size {
-          height: 300px;
-      }
-      .skills {
-        height: 400px;
-        div{
-          width: 130px;
-          height: 130px;
-        }
       }
 
-    }
+/* --- gallery --- */
 
-    #work {
-      .container_work {
-        height: 600px;
+      #text_gallery {
+            height: 100px;
       }
-    }
+      #slider {
+            height: 350px;
 
-    #contact {
-      .container_contact {
-        height: 600px;
       }
-    }
+      #images {
+            height: 350px;
+
+      }
+
+/* --- contents --- */
+
+      #article {
+            height: 150px;
+      }
+      #details {
+            height: 350px;
+
+      }
+      #contact {
+            height: 350px;
+
+      }
+
+
+
+}
+
+
+@media #{$desktop} {
 
 
 }

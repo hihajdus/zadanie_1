@@ -1,0 +1,39 @@
+/* --- nav --- */
+
+#menu_logo {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: none;
+  
+
+}
+
+#menu {
+  text-align: center;
+  padding-top: 8px;
+}
+
+#nav {
+    background-color: black;
+    #container_nav {
+      height: 30px;
+    }
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* --- foo --- */
+
+#foo {
+    background-color: black;
+    color: white;
+    .container_foo {
+      height: 30px;
+    }
+}

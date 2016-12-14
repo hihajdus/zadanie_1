@@ -1,0 +1,189 @@
+/* --- intro --- */
+
+#intro {
+  background-color: black;
+}
+
+#half_circle_left {
+  background-color: white;
+  width: 75px;
+  height: 150px;
+  -moz-border-radius: 0 200px 200px 0;
+  border-radius: 0 200px 200px 0;
+
+}
+
+
+#half_circle_right {
+  background-color: white;
+  width: 75px;
+  height: 150px;
+  -moz-border-radius: 200px 0 0 200px;
+  border-radius: 200px 0 0 200px;
+
+}
+
+/* --- about --- */
+
+#triangle_down {
+  //width: 100vw;
+  height: 25vh;
+  border-top: ridge 25vh black;
+    //border-left: ridge 49vw transparent;
+  border-right: ridge 50vw transparent;
+
+}
+
+
+#profile {
+  justify-content: center;
+
+    #profile_photo{
+        background: red;
+        width: 100px;
+        height: 200px;
+        align-self: center;
+    }
+}
+
+#sentense {
+
+}
+
+#story {
+  justify-content: center;
+  div {
+
+    align-self: center;
+    text-align: center;
+
+  }
+}
+
+
+/* --- skill --- */
+
+#triangle_up {
+
+  align-self: flex-end;
+  //width: 100vw;
+  height: 25vh;
+    //border-top: ridge 25vh transparent;
+  border-left: ridge 50vw transparent;
+    //border-right: ridge 50vw transparent;
+  border-bottom: ridge 25vh black;
+}
+
+.skills {
+    height:300px;
+}
+
+#skill {
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+      align-self: center;
+
+    }
+  }
+
+
+.s-1 {
+    background-image: url("../images/skills/HTML.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.s-2 {
+    background-image: url("../images/skills/css.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.s-3 {
+    background-image: url("../images/skills/js.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.s-4 {
+    background-image: url("../images/skills/jQuery.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.s-5 {
+    background-image: url("../images/skills/git.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.s-6 {
+    background-image: url("../images/skills/sass.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.s-7 {
+    background-image: url("../images/skills/php.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.s-8 {
+    background-image: url("../images/skills/ps.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.s-9 {
+    background-image: url("../images/skills/wp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+}
+
+
+/* --- work --- */
+
+#first_project {
+    height: 50px;
+    width: 50px;
+    background: blue;
+}
+
+#second_project {
+    height: 50px;
+    width: 50px;
+    background: green;
+}
+
+#work {
+  background: black;
+
+  .container_work {
+    height: 300px;
+  }
+
+}
+
+
+
+/* --- contact --- */
+
+#contact {
+    background: black;
+    color: white;
+
+    .container_contact{
+      height: 300px;
+    }
+
+    
+}

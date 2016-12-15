@@ -33,10 +33,20 @@ $desktop: "(min-width: 1024px)";
       #slider {
             height: 300px;
             width: 100%;
+            img {
+                width: 60vw;
+                height: 20vh;
+            }
       }
       #images {
             height: 150px;
             width: 100%;
+            flex-wrap: wrap;
+            img {
+                width: 20vw;
+                height: 5vh;
+                padding: 1vw;
+            }
       }
 
 /* --- contents --- */

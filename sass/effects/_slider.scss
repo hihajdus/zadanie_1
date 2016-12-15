@@ -1,0 +1,15 @@
+#slider {
+      ul {
+          list-style: none;
+      }
+      li {
+          display: none;
+      }
+      .visible {
+          display: inline-block;
+      }
+      img {
+          width: 250px;//40vw;
+          height: 200px;//30vh;
+      }
+}

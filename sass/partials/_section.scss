@@ -1,1 +1,52 @@
+/* --- header --- */
 
+#logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    //background-position: center;
+}
+
+#img_QRcode {
+    width: 250px;
+    height: 100%;
+    background-image: url("../images/QRcode.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#text_QR {
+    #text_property {
+        font-weight: bold;
+    }
+    font-size: 1.2em;
+    text-align: right;
+    display: table;
+    span {
+        color: orange;
+        font-weight: bold;
+    }
+    padding: 10px;
+}
+
+
+/* --- gallery --- */
+
+#text_gallery {
+    justify-content: flex-start;
+    font-size: 1.2em;
+    text-align: left;
+    span {
+        color: orange;
+    }
+    padding: 30px 10px 10px;
+
+    div {
+        height: 3px;
+        width: 100%;
+        background-color: orange;
+    }
+}
+
+/* --- contents --- */

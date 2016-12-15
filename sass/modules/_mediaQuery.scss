@@ -28,7 +28,7 @@ $desktop: "(min-width: 1024px)";
 /* --- gallery --- */
 
       #text_gallery {
-            height: 50px;
+            height: 100px;
       }
       #slider {
             height: 300px;
@@ -62,12 +62,13 @@ $desktop: "(min-width: 1024px)";
 
       #logo {
             height: 150px;
+
       }
       #QRcode {
             height: 150px;
       }
       #text_QR {
-
+            font-size: 1.5em;
       }
       #img_QR {
 
@@ -77,6 +78,9 @@ $desktop: "(min-width: 1024px)";
 
       #text_gallery {
             height: 100px;
+            p {
+                font-size: 1.5em;
+            }
       }
       #slider {
             height: 350px;
@@ -101,12 +105,6 @@ $desktop: "(min-width: 1024px)";
 
       }
 
-
-
-}
-
-
-@media #{$desktop} {
 
 
 }

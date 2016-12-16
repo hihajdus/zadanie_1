@@ -16,6 +16,8 @@ console.log('dziala');
     list[index].classList.add('visible');
 
 
+
+
     next.addEventListener('click', function () {
         console.log('you clicked next');
 

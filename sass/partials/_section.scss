@@ -52,14 +52,79 @@
 #images {
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
 
     img {
         width: 200px;
         height: 150px;
         padding: 10px;
+
     }
 }
 
 
 
 /* --- contents --- */
+
+
+#article {
+    //justify-content: flex-start;
+    padding: 10px;
+
+
+    .article_text {
+        font-size: 1.2em;
+        line-height: 1.2;
+        padding: 10px 0px;
+
+    }
+
+}
+
+.head_contents {
+    height: 8px;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px 30px 40px;
+    background-color: #2F2F2F;
+    color: white;
+    p {
+        align-self: center;
+    }
+    span {
+        color: orange;
+    }
+
+
+}
+
+#details {
+    padding: 10px;
+}
+
+
+#contact {
+
+    padding: 10px;
+    img {
+        width: 220px;
+        height: 350px;
+        padding: 30px 0px 10px 30px;
+    }
+    #img_contact {
+        width: 50%;
+
+    }
+    #text_contact {
+        padding-top: 30px;
+        width: 50%;
+        font-size: 1.2em;
+    }
+    #text_office {
+        width: 100%;
+        text-align: center;
+
+    }
+}

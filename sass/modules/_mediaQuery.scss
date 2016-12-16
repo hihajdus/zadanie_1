@@ -52,15 +52,23 @@ $desktop: "(min-width: 1024px)";
 /* --- contents --- */
 
       #article {
-            height: 200px;
+            height: 400px;
       }
       #details {
-            height: 200px;
+            height: 500px;
             width: 100%;
       }
       #contact {
-            height: 200px;
+            height: 500px;
             width: 100%;
+            img {
+                width: 170px;
+                height: 300px;
+            }
+            
+            #text_contact {
+                font-size: 1em;
+            }
       }
 
 }
@@ -107,11 +115,11 @@ $desktop: "(min-width: 1024px)";
             height: 150px;
       }
       #details {
-            height: 350px;
+            height: 500px;
 
       }
       #contact {
-            height: 350px;
+            height: 500px;
 
       }
 

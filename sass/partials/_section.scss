@@ -7,6 +7,10 @@
     //background-position: center;
 }
 
+#QRcode {
+    justify-content: flex-end;
+}
+
 #img_QRcode {
     width: 250px;
     height: 100%;
@@ -101,7 +105,20 @@
 }
 
 #details {
+
     padding: 10px;
+    table {
+        align-self: flex-start;
+
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 1.2em;
+        td {
+          text-align: left;
+          padding: 10px;
+        }
+        tr:nth-child(odd){background-color: #f2f2f2}
+    }
 }
 
 
@@ -124,7 +141,12 @@
     }
     #text_office {
         width: 100%;
-        text-align: center;
+        text-align: right;
+        p {
+            font-size: 1.2em;
+            color: gray;
+            padding: 0px 30px 20px;
+        }
 
     }
 }
